@@ -1,3 +1,5 @@
+**Note:** The EPG provider, m3u4u, has temporarily disabled the EPG while they work on an issue. Once they re-enable their service, the guide will start working again.
+
 ## What is MoveOnJoy?
 
 MoveOnJoy is a service provider offering access to live TV channels across various categories, including movies, entertainment, news, sports, kids, and documentaries, through the Flussonic Admin UI software.
