@@ -125,4 +125,5 @@ MGM+.Marquee.HDTV.(East).(MGM+MRQ).us
 MGM+.Drive-In.(MGM+DI).us
 MGM+.Hits.HDTV.(East).(MGM+HTHD).us
 Stadium.TV.us
+NBC.(WNBC).New.York,.NY.us
 MeTV.KSAT-DT2.us
