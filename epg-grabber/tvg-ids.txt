@@ -1,4 +1,4 @@
-ABC.(WABC).New.York,.NY.us
+ABC.(WOLO).Columbia,.SC.us
 BBC.World.News.North.America.(BBCWN).us
 Bloomberg.in.HDTV.(BTVHD).us
 WSBK.(TV-38).Boston.us
@@ -124,3 +124,5 @@ MGM+.HDTV.(East).(MGM+HD).us
 MGM+.Marquee.HDTV.(East).(MGM+MRQ).us
 MGM+.Drive-In.(MGM+DI).us
 MGM+.Hits.HDTV.(East).(MGM+HTHD).us
+Stadium.TV.us
+MeTV.KSAT-DT2.us
