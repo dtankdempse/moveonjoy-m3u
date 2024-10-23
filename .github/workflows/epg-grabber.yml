@@ -1,0 +1,39 @@
+name: Update EPG 
+
+on:
+  schedule:
+    # Runs once a day at midnight
+    - cron: "0 0 * * *"
+  
+  # Add a manual trigger
+  workflow_dispatch:
+
+jobs:
+  update-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository (no history)
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install requests
+
+      - name: Run EPG grabber script
+        run: |
+          python epg-grabber/getEpgs.py
+
+      - name: Force commit and push the changes (no history)
+        run: |
+          git config --global user.name "actions-user"
+          git config --global user.email "actions@github.com"
+          git add epg.xml
+          git commit -m "Update EPG"
+          git push --force # Force push to overwrite the previous commit
