@@ -9,7 +9,7 @@ FOX.(WFXT).Boston,.MA.us
 Fox.News.Channel.HDTV.(East).(FNCHD).us
 HLN.HDTV.(HLNHD).us
 msnbc.HDTV.(msnbcH).us
-NBC.Sports.Chicago.HDTV.(NBCSCHHD).us
+NBC.(WMAQ).Chicago,.IL.us
 NewsNation.HDTV.(NEWSNTN).us
 The.Weather.Channel.HDTV.(WEAHD).us
 ACC.Network.HDTV.(ACCN).us
