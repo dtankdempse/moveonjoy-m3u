@@ -34,10 +34,6 @@ Tennis.Channel.HDTV.(TNNSHD).us
 Yankees.Television.HDTV.(YESHD).us
 AMC.HDTV.(East).(AMCHD).us
 Cinemax.HDTV.(East).(MAXHD).us
-EPIX.us
-EPIX2.us
-EPIX.Drive-In.us
-EPIX.Hits.us
 FX.Movie.Channel.HDTV.(FXMHD).us
 Hallmark.Channel.HDTV.(East).(HALLHD).us
 Hallmark.Drama.HDTV.(HALDRHD).us
