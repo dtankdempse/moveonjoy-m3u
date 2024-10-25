@@ -7,16 +7,16 @@ Key Steps:
 	Fetching EPG Files: The script downloads EPG files from specified URLs. It can handle both regular XML files and 
 	compressed .gz files, decompressing them if necessary.
 
-  Reading Allowed TVG IDs: It reads a list of allowed TVG IDs from a file named tvg-ids.txt. Only channels and programs with 
+	Reading Allowed TVG IDs: It reads a list of allowed TVG IDs from a file named tvg-ids.txt. Only channels and programs with 
 	matching TVG IDs will be included in the final EPG.
 
-  Filtering Channels and Programs: For each fetched EPG file, the script checks the <channel> and <programme> elements. It 
+	Filtering Channels and Programs: For each fetched EPG file, the script checks the <channel> and <programme> elements. It 
 	only includes those that have a TVG ID present in the tvg-ids.txt file.
 
-  Building the Consolidated EPG: It combines all the filtered <channel> and <programme> elements from the different EPG 
+	Building the Consolidated EPG: It combines all the filtered <channel> and <programme> elements from the different EPG 
 	files into a single EPG XML structure.
 
-  Saving the Final EPG: The consolidated EPG XML is saved as epg.xml, with proper encoding and XML declaration.
+	Saving the Final EPG: The consolidated EPG XML is saved as epg.xml, with proper encoding and XML declaration.
 
 Purpose:
 
