@@ -13,8 +13,9 @@ To use M3U playlist in your IPTV application, look for the option to import an M
 ### Playlist URL:
 ``https://bit.ly/moj-m3u8``
 
-### EPG URL:
-``https://bit.ly/moj-epg``
+### EPG URLs:
+- **XML Format:** `https://bit.ly/moj-epg`
+- **Compressed:** `https://bit.ly/moj-epg-gz`
 
 ## Disclaimer:
 
