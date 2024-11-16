@@ -205,3 +205,11 @@ Love.Nature.(NATUR).ca
 Military.History.(MILHST).us
 Smithsonian.Channel.HDTV.(East).(SMITHHD).us
 World.Fishing.Network.(US).(WFN).us
+Scripps.News.Channel.us
+W.Network.HDTV.(East).(W.HD).ca
+Grit.TV.us
+CLEO.TV.us
+STARZ.HD.(West).(SZHDw).us
+WGN.Chicago.(LOCAL).us
+Military.History.us
+Magnolia.Network.HDTV.(MAGNOLIA).us
