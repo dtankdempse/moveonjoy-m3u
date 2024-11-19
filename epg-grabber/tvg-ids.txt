@@ -215,3 +215,9 @@ Military.History.us
 Magnolia.Network.HDTV.(MAGNOLIA).us
 plex.tv.FOX.SOUL.plex
 Inspirational.Network.East.(INSP).us
+CBS.News.us
+Hallmark.Movies.and.Mysteries.HDTV.(HMMHD).us
+PixL.HDTV.(PixLHD).us
+The.Sportsman.Channel.HDTV.(SPTMANHD).us
+Start.TV.Network.(East.Feed).(START).us
+UPtv.HDTV.(UPTVHD).us
