@@ -222,3 +222,4 @@ The.Sportsman.Channel.HDTV.(SPTMANHD).us
 Start.TV.Network.(East.Feed).(START).us
 UPtv.HDTV.(UPTVHD).us
 plex.tv.Stadium.plex
+Catchy.Comedy.us
