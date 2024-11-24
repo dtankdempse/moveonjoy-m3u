@@ -223,3 +223,5 @@ Start.TV.Network.(East.Feed).(START).us
 UPtv.HDTV.(UPTVHD).us
 plex.tv.Stadium.plex
 Catchy.Comedy.us
+NFL.RedZone.HDTV.(NFLRZD).us
+Much.HDTV.(MUCH).ca
