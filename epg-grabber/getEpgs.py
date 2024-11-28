@@ -3,19 +3,14 @@ import gzip
 import xml.etree.ElementTree as ET
 import requests
 
-save_as_gz = True # Set to True to save an additional .gz version
+save_as_gz = True  # Set to True to save an additional .gz version
 
 tvg_ids_file = os.path.join(os.path.dirname(__file__), 'tvg-ids.txt')
 output_file = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'epg.xml')
 output_file_gz = output_file + '.gz'
 
 def fetch_and_extract_xml(url):
-    response = requests.get(url, allow_redirects=True)
-    if response.history:
-        for resp in response.history:
-            print(f"{resp.status_code} -> {resp.url}")
-        print(f"Final URL: {response.url}")
-
+    response = requests.get(url)
     if response.status_code != 200:
         print(f"Failed to fetch {url}")
         return None
@@ -65,7 +60,7 @@ def filter_and_build_epg(urls):
         print(f"New EPG saved to {output_file_gz}")
 
 urls = [
-    'https://bit.ly/103216-595281-EPG-XML',
+    'https://www.dropbox.com/scl/fi/i7kgakvjubjwiscuab467/m3u4u-103216-595281-EPG.xml?rlkey=ykvw6gyhx93erycl19sa6xft5&st=tlrrz59n&dl=1',
     'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz',
     'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz',
     'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz',
