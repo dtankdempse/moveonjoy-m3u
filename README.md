@@ -1,5 +1,3 @@
-**Notice:** The EPG data is currently unavailable. I am in the process of remapping the channels.
-
 ## What is MoveOnJoy?
 
 MoveOnJoy is a service provider offering access to live TV channels across various categories, including movies, entertainment, news, sports, kids, and documentaries, through the Flussonic Admin UI software.
