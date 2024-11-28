@@ -3,14 +3,19 @@ import gzip
 import xml.etree.ElementTree as ET
 import requests
 
-save_as_gz = True  # Set to True to save an additional .gz version
+save_as_gz = True # Set to True to save an additional .gz version
 
 tvg_ids_file = os.path.join(os.path.dirname(__file__), 'tvg-ids.txt')
 output_file = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'epg.xml')
 output_file_gz = output_file + '.gz'
 
 def fetch_and_extract_xml(url):
-    response = requests.get(url)
+    response = requests.get(url, allow_redirects=True)
+    if response.history:
+        for resp in response.history:
+            print(f"{resp.status_code} -> {resp.url}")
+        print(f"Final URL: {response.url}")
+
     if response.status_code != 200:
         print(f"Failed to fetch {url}")
         return None
