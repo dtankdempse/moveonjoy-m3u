@@ -186,4 +186,4 @@ Nickelodeon.USA.-.East.Feed.us
 Nick.Jr..-.East.us
 Nick.Music.(NICM).us
 Nicktoons.-.East.us
-(no tvg-id)
+BETGOSPEL.us
