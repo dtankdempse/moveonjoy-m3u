@@ -205,9 +205,10 @@ Showtime.-.Eastern.Feed.us
 TeenNick.-.Eastern.us
 Telemundo..-.Eastern.Feed.us
 CW.Plus.Central.us
-The.Movie.Channel.HDTV.(East).(TMCHD).us
+TMC.(US).-.Eastern.Feed.us
 Universal.Kids.us
 Univision.-.Eastern.Feed.us
 Independent.Film.Channel.US.us
 TV.One.us
 WE.(Women&apos;s.Entertainment).-.Eastern.us
+Paramount+.with.Showtime.-.Eastern.Feed.us
