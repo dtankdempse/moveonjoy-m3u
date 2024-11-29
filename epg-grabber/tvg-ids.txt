@@ -208,4 +208,6 @@ CW.Plus.Central.us
 The.Movie.Channel.HDTV.(East).(TMCHD).us
 Universal.Kids.us
 Univision.-.Eastern.Feed.us
-WE.(Women's.Entertainment).-.Eastern.us
+Independent.Film.Channel.US.us
+TV.One.us
+WE.(Women&apos;s.Entertainment).-.Eastern.us
