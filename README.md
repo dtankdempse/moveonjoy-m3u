@@ -20,3 +20,9 @@ To use M3U playlist in your IPTV application, look for the option to import an M
 ## Disclaimer:
 
 This repository has no control over the streams, links, or the legality of the content provided by MoveOnJoy.com. It is the end user's responsibility to ensure the legal use of these streams, and we strongly recommend verifying that the content complies with the laws and regulations of your country before use.
+
+## DMCA Notice:
+
+This repository does not contain any video files. It simply organizes web links into an M3U-formatted playlist, which are publicly accessible online through a web browser. As far as we know, these websites were given permission by copyright holders to stream and allow access to the content found on their website(s). However, if you are a copyright holder and believe that any link infringes on your rights, you can request its removal by opening an [issue](https://github.com/moveonjoy-m3u/issues) or submitting a [pull request](https://github.com/moveonjoy-m3u/pulls).
+
+Please be aware that requesting the removal of a link here will not affect the content hosted on the external website(s), as this repository has no control over those destinations.
